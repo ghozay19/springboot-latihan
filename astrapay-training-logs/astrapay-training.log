@@ -1,0 +1,190 @@
+2019-08-14 14:19:06.789  INFO 12416 --- [main] com.ghozay19.issm.DemoApplication        : Starting DemoApplication on MSI with PID 12416 (C:\Shigoto\work\backend\issm\target\classes started by ghozy in C:\Shigoto\work\backend\issm)
+2019-08-14 14:19:06.792  INFO 12416 --- [main] com.ghozay19.issm.DemoApplication        : No active profile set, falling back to default profiles: default
+2019-08-14 14:19:07.793  INFO 12416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-14 14:19:07.818  INFO 12416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-08-14 14:19:08.292  INFO 12416 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b6ccb3c8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-14 14:19:08.632  INFO 12416 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-14 14:19:08.670  INFO 12416 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-14 14:19:08.671  INFO 12416 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-14 14:19:08.838  INFO 12416 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-14 14:19:08.838  INFO 12416 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1999 ms
+2019-08-14 14:19:09.336  INFO 12416 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-08-14 14:19:09.539  INFO 12416 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-08-14 14:19:09.596  INFO 12416 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-14 14:19:09.685  INFO 12416 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-14 14:19:09.686  INFO 12416 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-08-14 14:19:09.894  INFO 12416 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-14 14:19:10.068  INFO 12416 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-14 14:19:10.877  INFO 12416 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-14 14:19:11.204  INFO 12416 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-14 14:19:11.242  WARN 12416 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-14 14:19:11.318  WARN 12416 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-08-14 14:19:11.575  INFO 12416 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-08-14 14:19:11.589  INFO 12416 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-08-14 14:19:11.590  INFO 12416 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.1 created.
+2019-08-14 14:19:11.591  INFO 12416 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2019-08-14 14:19:11.592  INFO 12416 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-08-14 14:19:11.592  INFO 12416 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-08-14 14:19:11.592  INFO 12416 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.1
+2019-08-14 14:19:11.593  INFO 12416 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4af12a63
+2019-08-14 14:19:11.618  INFO 12416 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-08-14 14:19:11.653  INFO 12416 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-08-14 14:19:11.653  INFO 12416 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-08-14 14:19:11.685  INFO 12416 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-14 14:19:11.687  INFO 12416 --- [main] com.ghozay19.issm.DemoApplication        : Started DemoApplication in 5.316 seconds (JVM running for 6.351)
+2019-08-14 14:19:12.624  INFO 12416 --- [RMI TCP Connection(2)-192.168.43.42] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-14 14:19:12.625  INFO 12416 --- [RMI TCP Connection(2)-192.168.43.42] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-14 14:19:12.635  INFO 12416 --- [RMI TCP Connection(2)-192.168.43.42] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-08-14 14:57:07.061  INFO 12348 --- [main] com.ghozay19.issm.DemoApplication        : Starting DemoApplication on MSI with PID 12348 (C:\Shigoto\work\backend\issm\target\classes started by ghozy in C:\Shigoto\work\backend\issm)
+2019-08-14 14:57:07.063  INFO 12348 --- [main] com.ghozay19.issm.DemoApplication        : No active profile set, falling back to default profiles: default
+2019-08-14 14:57:07.761  INFO 12348 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-14 14:57:07.812  INFO 12348 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44ms. Found 1 repository interfaces.
+2019-08-14 14:57:08.102  INFO 12348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c473d9dd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-14 14:57:08.301  INFO 12348 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-14 14:57:08.321  INFO 12348 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-14 14:57:08.322  INFO 12348 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-14 14:57:08.416  INFO 12348 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-14 14:57:08.416  INFO 12348 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1302 ms
+2019-08-14 14:57:08.759  INFO 12348 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-08-14 14:57:08.933  INFO 12348 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-08-14 14:57:08.974  INFO 12348 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-14 14:57:09.040  INFO 12348 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-14 14:57:09.041  INFO 12348 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-08-14 14:57:09.181  INFO 12348 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-14 14:57:09.303  INFO 12348 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-14 14:57:09.939  INFO 12348 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-14 14:57:10.363  INFO 12348 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-14 14:57:10.392  WARN 12348 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-14 14:57:10.449  WARN 12348 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-08-14 14:57:10.616  INFO 12348 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-08-14 14:57:10.625  INFO 12348 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-08-14 14:57:10.625  INFO 12348 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.1 created.
+2019-08-14 14:57:10.626  INFO 12348 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2019-08-14 14:57:10.627  INFO 12348 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-08-14 14:57:10.627  INFO 12348 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-08-14 14:57:10.627  INFO 12348 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.1
+2019-08-14 14:57:10.627  INFO 12348 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@134c38
+2019-08-14 14:57:10.650  INFO 12348 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-08-14 14:57:10.685  INFO 12348 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-08-14 14:57:10.685  INFO 12348 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-08-14 14:57:10.714  INFO 12348 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-14 14:57:10.716  INFO 12348 --- [main] com.ghozay19.issm.DemoApplication        : Started DemoApplication in 3.961 seconds (JVM running for 4.663)
+2019-08-14 14:57:11.230  INFO 12348 --- [RMI TCP Connection(1)-192.168.43.42] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-14 14:57:11.231  INFO 12348 --- [RMI TCP Connection(1)-192.168.43.42] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-14 14:57:11.239  INFO 12348 --- [RMI TCP Connection(1)-192.168.43.42] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-08-14 15:02:29.219  INFO 15828 --- [main] com.ghozay19.issm.DemoApplication        : Starting DemoApplication on MSI with PID 15828 (C:\Shigoto\work\backend\issm\target\classes started by ghozy in C:\Shigoto\work\backend\issm)
+2019-08-14 15:02:29.224  INFO 15828 --- [main] com.ghozay19.issm.DemoApplication        : No active profile set, falling back to default profiles: default
+2019-08-14 15:02:29.920  INFO 15828 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-14 15:02:29.966  INFO 15828 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39ms. Found 1 repository interfaces.
+2019-08-14 15:02:30.263  INFO 15828 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7f9206e0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-14 15:02:30.454  INFO 15828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-14 15:02:30.472  INFO 15828 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-14 15:02:30.472  INFO 15828 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-14 15:02:30.559  INFO 15828 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-14 15:02:30.559  INFO 15828 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1296 ms
+2019-08-14 15:02:30.989  INFO 15828 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-08-14 15:02:31.083  INFO 15828 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-08-14 15:02:31.118  INFO 15828 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-14 15:02:31.166  INFO 15828 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-14 15:02:31.167  INFO 15828 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-08-14 15:02:31.279  INFO 15828 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-14 15:02:31.380  INFO 15828 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-14 15:02:31.993  INFO 15828 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-14 15:02:32.398  INFO 15828 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-14 15:02:32.426  WARN 15828 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-14 15:02:32.482  WARN 15828 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-08-14 15:02:32.644  INFO 15828 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-08-14 15:02:32.653  INFO 15828 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-08-14 15:02:32.653  INFO 15828 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.1 created.
+2019-08-14 15:02:32.654  INFO 15828 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2019-08-14 15:02:32.654  INFO 15828 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-08-14 15:02:32.654  INFO 15828 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-08-14 15:02:32.654  INFO 15828 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.1
+2019-08-14 15:02:32.654  INFO 15828 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6ac756b
+2019-08-14 15:02:32.674  INFO 15828 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-08-14 15:02:32.704  INFO 15828 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-08-14 15:02:32.704  INFO 15828 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-08-14 15:02:32.731  INFO 15828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-14 15:02:32.732  INFO 15828 --- [main] com.ghozay19.issm.DemoApplication        : Started DemoApplication in 3.805 seconds (JVM running for 4.463)
+2019-08-14 15:02:33.629  INFO 15828 --- [RMI TCP Connection(4)-192.168.43.42] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-14 15:02:33.630  INFO 15828 --- [RMI TCP Connection(4)-192.168.43.42] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-14 15:02:33.637  INFO 15828 --- [RMI TCP Connection(4)-192.168.43.42] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-08-14 15:02:38.391  INFO 17828 --- [main] com.ghozay19.issm.DemoApplication        : Starting DemoApplication on MSI with PID 17828 (C:\Shigoto\work\backend\issm\target\classes started by ghozy in C:\Shigoto\work\backend\issm)
+2019-08-14 15:02:38.397  INFO 17828 --- [main] com.ghozay19.issm.DemoApplication        : No active profile set, falling back to default profiles: default
+2019-08-14 15:02:39.061  INFO 17828 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-14 15:02:39.108  INFO 17828 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39ms. Found 1 repository interfaces.
+2019-08-14 15:02:39.397  INFO 17828 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$70cc5e82] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-14 15:02:41.709  INFO 8876 --- [main] com.ghozay19.issm.DemoApplication        : Starting DemoApplication on MSI with PID 8876 (C:\Shigoto\work\backend\issm\target\classes started by ghozy in C:\Shigoto\work\backend\issm)
+2019-08-14 15:02:41.711  INFO 8876 --- [main] com.ghozay19.issm.DemoApplication        : No active profile set, falling back to default profiles: default
+2019-08-14 15:02:42.378  INFO 8876 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-14 15:02:42.426  INFO 8876 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40ms. Found 1 repository interfaces.
+2019-08-14 15:02:42.706  INFO 8876 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$aa9237d8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-14 15:02:42.906  INFO 8876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-14 15:02:42.924  INFO 8876 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-14 15:02:42.924  INFO 8876 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-14 15:02:43.008  INFO 8876 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-14 15:02:43.008  INFO 8876 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1261 ms
+2019-08-14 15:02:43.384  INFO 8876 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-08-14 15:02:43.476  INFO 8876 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-08-14 15:02:43.510  INFO 8876 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-14 15:02:43.556  INFO 8876 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-14 15:02:43.558  INFO 8876 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-08-14 15:02:43.666  INFO 8876 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-14 15:02:43.769  INFO 8876 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-14 15:02:44.327  INFO 8876 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-14 15:02:44.711  INFO 8876 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-14 15:02:44.738  WARN 8876 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-14 15:02:44.794  WARN 8876 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-08-14 15:02:44.954  INFO 8876 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-08-14 15:02:44.962  INFO 8876 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-08-14 15:02:44.963  INFO 8876 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.1 created.
+2019-08-14 15:02:44.963  INFO 8876 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2019-08-14 15:02:44.964  INFO 8876 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-08-14 15:02:44.964  INFO 8876 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-08-14 15:02:44.964  INFO 8876 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.1
+2019-08-14 15:02:44.964  INFO 8876 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1b94c789
+2019-08-14 15:02:44.984  INFO 8876 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-08-14 15:02:45.013  INFO 8876 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-08-14 15:02:45.013  INFO 8876 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-08-14 15:02:45.039  INFO 8876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-14 15:02:45.041  INFO 8876 --- [main] com.ghozay19.issm.DemoApplication        : Started DemoApplication in 3.601 seconds (JVM running for 4.214)
+2019-08-14 15:02:45.820  INFO 8876 --- [RMI TCP Connection(3)-192.168.43.42] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-14 15:02:45.820  INFO 8876 --- [RMI TCP Connection(3)-192.168.43.42] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-14 15:02:45.826  INFO 8876 --- [RMI TCP Connection(3)-192.168.43.42] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-08-14 15:03:46.065  INFO 8876 --- [http-nio-8080-exec-2] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
